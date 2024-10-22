@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT aaxIdentifier="bmfAudio.bmfproj1" buildAAX="0" buildAU="0" buildAUv3="0"
+              buildRTAS="0" buildStandalone="0" buildVST="0" buildVST3="0"
+              bundleIdentifier="bmfAudio.bmfproj1" companyCopyright="" companyEmail=""
+              companyName="bmfAudio" companyWebsite="" displaySplashScreen="0"
+              enableIAA="0" headerPath="" id="NHblJj" includeBinaryInAppConfig="1"
+              name="bmfproj1" pluginAAXCategory="2" pluginAUExportPrefix="bmfproj1AU"
+              pluginChannelConfigs="{2, 2}" pluginCode="BMFd" pluginDesc="EQ_Delay"
+              pluginEditorRequiresKeys="0" pluginIsMidiEffectPlugin="0" pluginIsSynth="0"
+              pluginManufacturer="bmfAudio" pluginManufacturerCode="bmfA" pluginName="EQ_Delay"
+              pluginProducesMidiOut="0" pluginRTASCategory="" pluginWantsMidiIn="0"
+              projectType="audioplug" reportAppUsage="0" splashScreenColour="Dark"
+              version="1.0.0" jucerFormatVersion="1">
+  <MAINGROUP id="yjfreO" name="bmfproj1">
+    <GROUP id="{315416B7-1A91-5F1C-CADC-7954A28EC1BA}" name="Source">
+      <FILE compile="0" file="Source/bmfproj1PluginEditor.h" id="gU8882"
+            name="bmfproj1PluginEditor.h" resource="0"/>
+      <FILE compile="0" file="Source/bmfproj1PluginEditorResources.h" id="HWt3Ub"
+            name="bmfproj1PluginEditorResources.h" resource="0"/>
+      <FILE compile="1" file="Source/bmfproj1PluginProcessor.cpp" id="fMgLDs"
+            name="bmfproj1PluginProcessor.cpp" resource="0"/>
+      <FILE compile="1" file="Source/rt_nonfinite.cpp" id="iyHV3Y" name="rt_nonfinite.cpp"
+            resource="0"/>
+      <FILE compile="1" file="Source/rtGetNaN.cpp" id="N8hBMz" name="rtGetNaN.cpp"
+            resource="0"/>
+      <FILE compile="1" file="Source/rtGetInf.cpp" id="XH6zUn" name="rtGetInf.cpp"
+            resource="0"/>
+      <FILE compile="1" file="Source/bmfproj1.cpp" id="y3NNry" name="bmfproj1.cpp"
+            resource="0"/>
+      <FILE compile="0" file="Source/coder_array.h" id="vVTwv4" name="coder_array.h"
+            resource="0"/>
+      <FILE compile="0" file="Source/rtwtypes.h" id="G6ls8L" name="rtwtypes.h"
+            resource="0"/>
+      <FILE compile="0" file="Source/bmfproj1_types.h" id="XZqdJY" name="bmfproj1_types.h"
+            resource="0"/>
+      <FILE compile="0" file="Source/rt_nonfinite.h" id="w569mW" name="rt_nonfinite.h"
+            resource="0"/>
+      <FILE compile="0" file="Source/rtGetNaN.h" id="xBAb52" name="rtGetNaN.h"
+            resource="0"/>
+      <FILE compile="0" file="Source/rtGetInf.h" id="tqzqj9" name="rtGetInf.h"
+            resource="0"/>
+      <FILE compile="0" file="Source/bmfproj1.h" id="cwx7TW" name="bmfproj1.h"
+            resource="0"/>
+      <FILE compile="0" file="Source/bmfproj1_types1.h" id="smJ4bS" name="bmfproj1_types1.h"
+            resource="0"/>
+      <FILE compile="0" file="Source/tmwtypes.h" id="tNgtWl" name="tmwtypes.h"
+            resource="0"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" vst3Folder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION enablePluginBinaryCopyStep="0" isDebug="1" linkTimeOptimisation="0"
+                       name="Debug" optimisation="1" osxArchitecture="Native" osxCompatibility="10.15 SDK"
+                       targetName="bmfproj1" macOSDeploymentTarget="10.15"/>
+        <CONFIGURATION enablePluginBinaryCopyStep="0" isDebug="0" linkTimeOptimisation="1"
+                       name="Release" optimisation="3" osxArchitecture="Native" osxCompatibility="10.15 SDK"
+                       targetName="bmfproj1" macOSDeploymentTarget="10.15"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="modules"/>
+        <MODULEPATH id="juce_audio_devices" path="modules"/>
+        <MODULEPATH id="juce_audio_formats" path="modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="modules"/>
+        <MODULEPATH id="juce_audio_processors" path="modules"/>
+        <MODULEPATH id="juce_audio_utils" path="modules"/>
+        <MODULEPATH id="juce_core" path="modules"/>
+        <MODULEPATH id="juce_data_structures" path="modules"/>
+        <MODULEPATH id="juce_events" path="modules"/>
+        <MODULEPATH id="juce_graphics" path="modules"/>
+        <MODULEPATH id="juce_gui_basics" path="modules"/>
+        <MODULEPATH id="juce_gui_extra" path="modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION debugInformationFormat="ProgramDatabase" generateManifest="1"
+                       isDebug="1" linkTimeOptimisation="0" name="Debug" optimisation="1"
+                       targetName="bmfproj1" winArchitecture="x64" winWarningLevel="2"/>
+        <CONFIGURATION debugInformationFormat="ProgramDatabase" generateManifest="1"
+                       isDebug="0" linkTimeOptimisation="1" name="Release" optimisation="3"
+                       targetName="bmfproj1" winArchitecture="x64" winWarningLevel="2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="modules"/>
+        <MODULEPATH id="juce_audio_devices" path="modules"/>
+        <MODULEPATH id="juce_audio_formats" path="modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="modules"/>
+        <MODULEPATH id="juce_audio_processors" path="modules"/>
+        <MODULEPATH id="juce_audio_utils" path="modules"/>
+        <MODULEPATH id="juce_core" path="modules"/>
+        <MODULEPATH id="juce_data_structures" path="modules"/>
+        <MODULEPATH id="juce_events" path="modules"/>
+        <MODULEPATH id="juce_graphics" path="modules"/>
+        <MODULEPATH id="juce_gui_basics" path="modules"/>
+        <MODULEPATH id="juce_gui_extra" path="modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <VS2017 targetFolder="Builds/VisualStudio2017" vst3Folder="" windowsTargetPlatformVersion="10.0.15063.0">
+      <CONFIGURATIONS>
+        <CONFIGURATION debugInformationFormat="ProgramDatabase" generateManifest="1"
+                       isDebug="1" linkTimeOptimisation="0" name="Debug" optimisation="1"
+                       targetName="bmfproj1" winArchitecture="x64" winWarningLevel="2"/>
+        <CONFIGURATION debugInformationFormat="ProgramDatabase" generateManifest="1"
+                       isDebug="0" linkTimeOptimisation="1" name="Release" optimisation="3"
+                       targetName="bmfproj1" winArchitecture="x64" winWarningLevel="2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="modules"/>
+        <MODULEPATH id="juce_audio_devices" path="modules"/>
+        <MODULEPATH id="juce_audio_formats" path="modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="modules"/>
+        <MODULEPATH id="juce_audio_processors" path="modules"/>
+        <MODULEPATH id="juce_audio_utils" path="modules"/>
+        <MODULEPATH id="juce_core" path="modules"/>
+        <MODULEPATH id="juce_data_structures" path="modules"/>
+        <MODULEPATH id="juce_events" path="modules"/>
+        <MODULEPATH id="juce_graphics" path="modules"/>
+        <MODULEPATH id="juce_gui_basics" path="modules"/>
+        <MODULEPATH id="juce_gui_extra" path="modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="bmfproj1"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="bmfproj1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="modules"/>
+        <MODULEPATH id="juce_audio_devices" path="modules"/>
+        <MODULEPATH id="juce_audio_formats" path="modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="modules"/>
+        <MODULEPATH id="juce_audio_processors" path="modules"/>
+        <MODULEPATH id="juce_audio_utils" path="modules"/>
+        <MODULEPATH id="juce_core" path="modules"/>
+        <MODULEPATH id="juce_data_structures" path="modules"/>
+        <MODULEPATH id="juce_events" path="modules"/>
+        <MODULEPATH id="juce_graphics" path="modules"/>
+        <MODULEPATH id="juce_gui_basics" path="modules"/>
+        <MODULEPATH id="juce_gui_extra" path="modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="0" useGlobalPath="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="0" useGlobalPath="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="0" useGlobalPath="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="0" useGlobalPath="1"
+            useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="0" useGlobalPath="1"
+            useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="0" useGlobalPath="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="0" useGlobalPath="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="0" useGlobalPath="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="0" useGlobalPath="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="0" useGlobalPath="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="0" useGlobalPath="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="0" useGlobalPath="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
